@@ -1,0 +1,219 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800,700,600,300);
+.active{
+    background-color: #a885acbb;
+    border-radius: 15px;
+    color: rgb(253, 249, 249);
+} 
+body {
+    background-color: #f5f5f5;
+    font-size: 85%;
+    font-family: verdana;
+    line-height: 1.5;
+    }
+   
+   .body {
+    margin:0 auto;
+    width: 70%;
+    clear: both;
+    }
+   
+   .mainheader nav{
+    background-color: #da9cae;
+    height: 50px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    }
+   
+   .mainheader a {
+    text-decoration: none;
+    display: inline-block;
+    }
+   
+   .mainheader nav ul li {
+    float: left;
+    display: inline;
+    }
+   
+   .mainheader nav ul {
+    margin:0 auto;
+    list-style:none;
+    }
+   
+   .mainheader nav a:link, .mainheader nav a:visited {
+    color: #FFF;
+    padding: 15px 25px;
+    }
+   
+   .mainheader nav a:hover, .mainheader nav a:active{
+    background-color: #383838;
+    transition: 1s; 
+    }
+   .mainheader nav .home a:link, .mainheader nav .home a:visited {
+    background-color: #201e1e;
+    }
+    
+   .mainheader nav ul li a{
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    }
+   
+   .maincontent {
+     border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    }
+   
+   .content a:link , a{
+    text-decoration: none;
+    color: #dca99c;
+    }
+   
+   .content {
+    width: 70%;
+    float: left;
+    }
+   
+   .content1 {
+    background-color: #Fff;
+    border-radius: 10px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 3% 6%;
+    margin-top: 2%;
+    }
+   
+    .content2 {
+    background-color: #Fff;
+    border-radius: 8px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 3% 6%;
+    margin-top: 2%;
+    }
+    
+    .sidebar {
+        float:right;
+        width: 240px;
+    }
+
+    .sidebar1 {
+    width: 24%;
+    background-color: #FFF;
+    float: left;
+    margin-left: 2%;
+    margin-top: 1.5%;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 2% 2%;
+    margin-bottom: 2%;
+    
+    }
+    .sidebar1 .img{
+        margin-top: 5px;
+        border-radius: 5px;
+    }
+   .sidebar2 {
+    width: 24%;
+    background-color: #FFF;
+    float: left;
+    margin-left: 2%;
+    border-radius: 2px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 2% 2%;
+    margin-bottom: 2%;
+    }
+   
+   .mainfooter {
+    width: 100%;
+    height: 50px;
+    float:left ;
+    margin: 2% 0;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    background-color: #666;
+    }
+   
+   .mainfooter p {
+    color: #FFF;
+    width: 92%;
+    margin-left: 5%;
+    }
+   
+   @media only screen and (min-width: 150px) and (max-width: 600px) {
+   
+   .body {
+    width: 90%;
+    } 
+   
+   .mainheader nav{
+    height: 200px;
+    }
+   
+   .mainheader a {
+    text-decoration: none;
+    }
+   
+   .mainheader nav .home a:link, .mainheader nav .home a:visited {
+     width: 88%;
+    }
+   
+   .mainheader nav a:hover, .mainheader nav a:active{
+    width: 88%;
+    transition: 1s;
+    }
+   
+   .mainheader nav ul li {
+    width: 100%;
+    text-align: center;
+    } 
+   
+   .mainheader nav ul {
+    margin:0 auto;
+    list-style:none;
+    padding-left: 0px;
+    }
+   
+   .maincontent {
+    overflow: hidden;
+   
+    }
+   .content {
+    width: 100%;
+    }
+   
+   .sidebar1 {
+    width: 95%;
+    margin-left: 0px;
+    }
+
+    .sidebar1 .img{
+        margin-top: 5px;
+        border-radius: 8px;
+    }
+
+    .sidebar2 {
+    width: 95%;
+    margin-left: 0px;
+    }
+    }
+    @media only screen and (min-width: 150px) and (max-width: 600px)
+    body {
+        //Tampilan normal web agan
+        width: 70%;
+        margin:0 auto;
+        clear: both;
+       }
+       
+       @media only screen and (min-width: 150px) and (max-width: 600px) {
+        //Tampilan ketika web browser agan mempunyai  dari lebar 150px dan sampai panjang 600px 
+        body {
+        width: 100%;
+        }
+       }
+
+       
